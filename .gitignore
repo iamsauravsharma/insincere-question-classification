@@ -1,0 +1,13 @@
+#Python Cache
+__pycache__/
+
+#Packaging
+*.egg-info/
+
+#IDE file
+.vscode
+.idea
+*.iml
+
+#UNIX file
+.directory
