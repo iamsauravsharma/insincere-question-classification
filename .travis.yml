@@ -25,4 +25,4 @@ before_script:
 script: 
   - pytest -v
   - flake8 --count
-  - black --check
+  - black ./ --check
