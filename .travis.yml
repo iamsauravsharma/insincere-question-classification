@@ -11,8 +11,18 @@ dist: xenial
 before_install:
   - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
   - source $HOME/.poetry/env
+  - poetry --version
 
 install:
   - poetry install -v
+  - poetry show -v
 
-script: pytest
+before_script:
+  - pytest --version
+  - flake8 --version
+  - black --version
+
+script: 
+  - pytest -v
+  - flake8 --count
+  - black --check
