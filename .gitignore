@@ -4,6 +4,7 @@ __pycache__/
 
 #Packaging
 *.egg-info/
+pip-wheel-metadata/
 
 #IDE file
 .vscode
