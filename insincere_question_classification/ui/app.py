@@ -41,11 +41,7 @@ def predict():
     question = flask.request.args.get("question")
     (raw_prediction, prediction) = predict_question(question)
     return sendResponse(
-        {
-            "Question": question,
-            "Class": prediction,
-            "Probability": str(raw_prediction),
-        }
+        {"Question": question, "Class": prediction, "Probability": str(raw_prediction)}
     )
 
 
