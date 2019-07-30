@@ -6,6 +6,9 @@ __pycache__/
 *.egg-info/
 pip-wheel-metadata/
 
+#ipynb related
+.ipynb_checkpoints/
+
 #IDE file
 .vscode
 .idea
@@ -13,3 +16,6 @@ pip-wheel-metadata/
 
 #UNIX file
 .directory
+
+# Pre trained model and tokenizer file location
+insincere_question_classification/models
