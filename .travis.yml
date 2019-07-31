@@ -6,7 +6,7 @@ python:
 git:
   depth: false
  
-dist: xenial
+dist: bionic
 
 before_install:
   - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
@@ -14,7 +14,7 @@ before_install:
   - poetry --version
 
 install:
-  - poetry install -v
+  - poetry update -vv
   - poetry show -v
 
 before_script:
