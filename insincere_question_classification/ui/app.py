@@ -13,7 +13,7 @@ def init():
     global model, tokenizer, graph
     # load the pre-trained Keras model
     with CustomObjectScope({"Attention": Attention, "f1": f1}):
-        model = load_model("insincere_question_classification/models/trainedModel.h5")
+        model = load_model("insincere_question_classification/models/trainedmodel.h5")
     with open(
         "insincere_question_classification/models/tokenizer.pickle", "rb"
     ) as handle:
