@@ -806,9 +806,12 @@ class Attention(Layer):
 emb_size = 600
 
 inp = Input(shape=(max_len,))
-x = Embedding(input_dim=n_words, output_dim=emb_size, weights=[embedding_matrix_com])(
-    inp
-)
+x = Embedding(
+    input_dim=n_words,
+    output_dim=emb_size,
+    weights=[embedding_matrix_com],
+    trainable=False,
+)(inp)
 x = SpatialDropout1D(0.4, seed=1029)(x)
 x = Bidirectional(CuDNNLSTM(150, return_sequences=True))(x)
 x = Bidirectional(CuDNNGRU(150, return_sequences=True))(x)
