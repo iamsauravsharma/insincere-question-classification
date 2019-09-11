@@ -44,6 +44,10 @@ To open notebook in google colab you can replace out https://github.com address 
 
 You can find out more information about opening a github link in google colab and other functionality [here][colab_github_demo_link]
 
+**Research Paper**
+
+We have also published out research paper of project if you need to read out research paper and learn about project then you can read out [research paper](research_paper.pdf) present in this repo.
+
 [build_badge]: https://img.shields.io/travis/com/iamsauravsharma/insincere-question-classification.svg?logo=travis
 [build_link]: https://travis-ci.com/iamsauravsharma/insincere-question-classificaton
 
