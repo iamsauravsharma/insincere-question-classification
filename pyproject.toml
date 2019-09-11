@@ -2,7 +2,11 @@
 name = "insincere-question-classification"
 version = "0.1.0"
 description = "Classification of insincere question using deep learning"
-authors = ["Saurav Sharma <appdroiddeveloper@gmail.com>"]
+authors = [
+    "Saurav Sharma <appdroiddeveloper@gmail.com>",
+    "Bishal Gaire <bgaire2053@gmail.com>",
+    "Bishal Rijal <bishalrijal110@gmail.com>",
+    "Dilip Gautam <hiddendreamz7@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
