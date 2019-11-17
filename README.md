@@ -1,5 +1,8 @@
 # INSINCERE_QUESTION_CLASSIFICATION
 
+This is a final year project done by group of Bishal Gaire, Bishal Rijal, Dilip Gautam amd Saurav Sharma. This project classify ouy whether a question is
+sincere or insincere using deep learning. It uses out [dataset][dataset_link] provided out by kaggle.
+
 **Status:**
 
 | Travis Build Status | Code style |
@@ -26,13 +29,13 @@ over virtual environment. To learn more about poetry you can view [poetry docs][
 
 **Running Locally**
 
-This project are build using google colab free service so to run locally initially kaggle.json file is required to run project locally.
-The steps for installing and authenticating a kaggle CLI can be found in [here][kaggle_link].
+This project are build using google colab free service so to run locally initially kaggle.json file is required. The steps for installing and authenticating
+ a kaggle CLI can be found in [here][kaggle_link].
 
 All jupyter notebook file have two initial cell which are used for uploading a kaggle.json file on google colab so those initial two cells
 need not to be executed while running locally and may fail.
 
-As well as you are not required to run all cell which are installing a package using pip command over google colab where a package is not preinstalled
+As well as you are not required to run all cell which are installing a package using pip command over google colab where packages is not preinstalled
 over there and need to be installed. All package are preinstalled using a poetry locally.
 
 Similarly python file is also present which is built form a jupyter notebook by removing out unnecessary code cell form it so it can be easily run locally
@@ -56,17 +59,21 @@ To open notebook in google colab you can replace out https://github.com address 
 You can find out more information about opening a github link in google colab and other functionality [here][colab_github_demo_link]
 
 **Other Models**
+
 Other models which are tested out is present in different-models branch if you need to see out models then you can see in that branch and run as required.
 Only jupyter notebook version model is available for those models their is no python file as well as you can load out model at google colab easily from each
 notebook file.
 
 **Images**
-Images such as word cloud, bar and other diagrams is present over images directory to visualize out data.
+
+Images such as word cloud, bar and other diagrams is present over images directory to visualize out data leangth & distribution.
 
 **Research Paper**
 
 We have also published out research paper of project if you need to read out research paper and learn about project then you can read out
 [research paper](research_paper.pdf) present in this repo.
+
+[dataset_link]: https://www.kaggle.com/c/quora-insincere-questions-classification/data
 
 [build_badge]: https://img.shields.io/travis/com/iamsauravsharma/insincere-question-classification.svg?logo=travis
 [build_link]: https://travis-ci.com/iamsauravsharma/insincere-question-classificaton
