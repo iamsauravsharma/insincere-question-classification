@@ -3,12 +3,6 @@
 This is a final year project done by group of Bishal Gaire, Bishal Rijal, Dilip Gautam amd Saurav Sharma. This project classify ouy whether a question is
 sincere or insincere using deep learning. It uses out [dataset][dataset_link] provided out by kaggle.
 
-**Status:**
-
-| Travis Build Status | Code style |
-| :---: | :---: |
-| [![Travis Build Status][build_badge]][build_link] | [![Code style][black_badge]][black_link] |
-
 **Project Info:**
 
 | License | LoC |
@@ -74,12 +68,6 @@ We have also published out research paper of project if you need to read out res
 [research paper](research_paper.pdf) present in this repo.
 
 [dataset_link]: https://www.kaggle.com/c/quora-insincere-questions-classification/data
-
-[build_badge]: https://img.shields.io/travis/com/iamsauravsharma/insincere-question-classification.svg?logo=travis
-[build_link]: https://travis-ci.com/iamsauravsharma/insincere-question-classificaton
-
-[black_badge]: https://img.shields.io/badge/code%20style-black-000000.svg
-[black_link]: https://github.com/ambv/black
 
 [license_badge]: https://img.shields.io/github/license/iamsauravsharma/insincere-question-classification.svg
 [license_link]: LICENSE
