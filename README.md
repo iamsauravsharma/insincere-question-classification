@@ -1,7 +1,6 @@
 # INSINCERE_QUESTION_CLASSIFICATION
 
-This is a final year project done by group of Bishal Gaire, Bishal Rijal, Dilip Gautam amd Saurav Sharma. This project classify ouy whether a question is
-sincere or insincere using deep learning. It uses out [dataset][dataset_link] provided out by kaggle.
+This is a final-year project done by a group of Bishal Gaire, Bishal Rijal, Dilip Gautam and Saurav Sharma. This project classifies whether a question is sincere or insincere using deep learning. It uses [dataset][dataset_link] provided by Kaggle.
 
 **Project Info:**
 
@@ -11,61 +10,39 @@ sincere or insincere using deep learning. It uses out [dataset][dataset_link] pr
 
 **Install**
 
-To install a project at first Poetry should be installed for a package management. You can learn about poetry by visiting their [Github][github_link] 
-or [Website][website_link]. Simply use following command to install poetry
-
-```
-curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
-```
-
-To start out a shell where all package are installed out you can run out command ```poetry shell``` which installs out all package and spawns shell
-over virtual environment. To learn more about poetry you can view [poetry docs][poetry_docs_link].
+To install a project Poetry should be installed for package management. You can learn about poetry by visiting their [Github][github_link] or [Website][website_link].
 
 **Running Locally**
 
-This project are build using google colab free service so to run locally initially kaggle.json file is required. The steps for installing and authenticating
- a kaggle CLI can be found in [here][kaggle_link].
+This project is built using Google Colab free service so to run locally initially kaggle.json file is required. The steps for installing and authenticating a kaggle CLI can be found [here][kaggle_link].
 
-All jupyter notebook file have two initial cell which are used for uploading a kaggle.json file on google colab so those initial two cells
-need not to be executed while running locally and may fail.
+All Jupyter Notebook files have two initial cells which are used for uploading a kaggle.json file on Google Colab so those initial two cells should be ignored while running locally.
 
-As well as you are not required to run all cell which are installing a package using pip command over google colab where packages is not preinstalled
-over there and need to be installed. All package are preinstalled using a poetry locally.
+Also, you are not required to run cells that installs a package using the pip command over Google Collab where packages are not preinstalled. All packages can be preinstalled using a poetry locally.
 
-Similarly python file is also present which is built form a jupyter notebook by removing out unnecessary code cell form it so it can be easily run locally
-without problem in the poetry virtual environment of the project. But there are some changes using it such as kaggle dataset need to be downloaded early so
-it can be used by python file. 
+Similarly, a Python file is also present which is built from a jupyter notebook by removing unnecessary code cells from it but kaggle dataset needs to be downloaded early
 
-You can save and store out a trained model file and tokenizer file over a models file to run a flask app or simply train and save model directly by running
-a python file named as train_and_save_model for running & training ANN and saving best model. Initially models folder need to be created out otherwise it may
-fail to save a model altogether
-
-You can also easily modify out a file path in a notebook and python file file path for different file and folders according to your need 
+You need trained model file and tokenizer file to run a Flask app or which can be generated running a Python file named `train_and_save_model.py` for running and training ANN and saving the best model. Initially models folder needs to be created otherwise it may fail to save a model altogether
 
 **Running Over Google Colab**
 
-To run jupyter notebook over google colab you need to have a kaggle.json file locally to be uploaded over google colab server. While using over google colab
-all cells need to be run over.
+To run Jupyter Notebook over Google Colab you need to have a kaggle.json file locally. While using Google Collab all cells are required.
 
-To open notebook in google colab you can replace out https://github.com address to  https://colab.research.google.com/github or simply install
-[chrome extension][chrome_link] or [firefox extension][firefox_link].
+To open the notebook in Google Colab you can replace out https://github.com address with https://colab.research.google.com/github or simply install [chrome extension][chrome_link] or [firefox extension][firefox_link].
 
-You can find out more information about opening a github link in google colab and other functionality [here][colab_github_demo_link]
+You can find out more information about opening a GitHub link in Google Collab and other functionality [here][colab_github_demo_link]
 
 **Other Models**
 
-Other models which are tested out is present in different-models branch if you need to see out models then you can see in that branch and run as required.
-Only jupyter notebook version model is available for those models their is no python file as well as you can load out model at google colab easily from each
-notebook file.
+Other models which are tested are also present in different-models branch if you need to see models then you can see them in that branch and run as required. Only the Jupyter Notebook is available for those models.
 
 **Images**
 
-Images such as word cloud, bar and other diagrams is present over images directory to visualize out data leangth & distribution.
+Images such as word cloud, bar and other diagrams are present in the images directory to visualize data length & and distribution.
 
 **Research Paper**
 
-We have also published out research paper of project if you need to read out research paper and learn about project then you can read out
-[research paper](research_paper.pdf) present in this repo.
+We have also published our research paper on the project if you need to read our research paper and learn about the project then you can read out [research paper](research_paper.pdf) present in this repo.
 
 [dataset_link]: https://www.kaggle.com/c/quora-insincere-questions-classification/data
 
